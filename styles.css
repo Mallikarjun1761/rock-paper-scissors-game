@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color:white;
+    font-family: Arial;
+  }
+  .title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .rock-img,.paper-img,.Scissors-img,.move-img{
+    
+    height: 50px;
+  }
+  .rock,.paper,.Scissors{
+    background-color: transparent;
+    border-radius: 60px;
+    border:3px solid white;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .result{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .score{
+    margin-top: 60px;
+  }
+  .reset,.auto{
+    font-size: 15px;
+    padding: 8px 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
